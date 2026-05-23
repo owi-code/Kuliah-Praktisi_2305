@@ -1,4 +1,9 @@
 import streamlit as st
+st.set_page_config(
+  page_title="Kuliah Praktisi 2305",
+  page_icon="🧊"
+  layout="centered"
+)
 
 st.title("📊 Dashboard")
 st.header("Laporan Bulanan")
